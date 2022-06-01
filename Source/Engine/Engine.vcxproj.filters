@@ -1,252 +1,252 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Исходные файлы">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Файлы заголовков">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Файлы ресурсов">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="Classes">
       <UniqueIdentifier>{d7659d1e-013e-42c9-ae0c-cbe305cfd961}</UniqueIdentifier>
     </Filter>
     <Filter Include="Texture">
       <UniqueIdentifier>{76d219c5-d3a2-4c5d-8a33-f34e49245294}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Amd3d.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Src\EnginePrivate.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Src\UnCon.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Src\UnPath.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\AActor.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\ABrush.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\ACamera.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\AMover.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\APawn.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\APlayerPawn.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\AZoneInfo.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\Engine.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\EngineClasses.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnActor.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnAudio.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnBunch.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnCamera.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnChan.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnConn.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnDynBsp.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnEngine.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnGame.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnIn.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnLevel.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnMath.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnMesh.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnModel.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnNet.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnNetDrv.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnObj.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnParams.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnPlayer.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnPrim.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnReach.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnRender.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnRenDev.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnTex.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Inc\UnURL.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\Engine.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnActCol.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnActor.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnAudio.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnBunch.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnCamera.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnCamMgr.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnCanvas.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnChan.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnCon.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnConn.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnDynBsp.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnEngine.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnFont.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnFPoly.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnGame.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnIn.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnLevAct.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnLevel.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnLevTic.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnMath.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnMesh.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnModel.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnMover.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnParams.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnPath.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnPawn.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnPhysic.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnPlayer.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnPrim.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnReach.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\Unreal.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnRoute.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnScript.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnTex.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnTrace.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
     <ClCompile Include="Src\UnURL.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
